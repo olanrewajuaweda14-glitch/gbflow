@@ -13,7 +13,7 @@ In informal and semi-formal retail, the chain from manufacturer to distributor t
 - Retailers run out of stock without warning, or over-order and tie up cash.
 - Distributors plan routes and inventory without clear demand signals.
 - Manufacturers cannot see what happens after goods leave the warehouse.
-- Small retailers struggle to get working capital to restock.
+- small retailers struggle to get working capital to restock.
 
 ## The solution
 
