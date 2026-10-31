@@ -437,4 +437,5 @@ document.addEventListener('pointermove',e=>{if(!drag)return;const m=S.mp,r=drag.
 document.addEventListener('pointerup',()=>{if(drag){drag=null;save()}});
 addEventListener('storage',e=>{if(e.key!=SKEY||!e.newValue)return;try{const ses=S.session,n=JSON.parse(e.newValue);S=Object.assign(fresh(),n);S.session=ses;if(!location.hash.startsWith('#/auth')&&!S.sub&&!document.activeElement.matches('input,select'))render()}catch(x){}});
 addEventListener('hashchange',()=>{render();scrollTo(0,0);const a=$('#app');a.classList.add('pt');setTimeout(()=>a.classList.remove('pt'),450)});render();
-</script></body></html>
+</script></body>
+</html>
